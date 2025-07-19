@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
-import { FiSun, FiMoon, FiMenu, FiX, FiChevronDown, FiShoppingCart, FiHeart, FiUser } from 'react-icons/fi';
+import { FiSun, FiMoon, FiMenu, FiX, FiChevronDown, FiShoppingCart, FiHeart } from 'react-icons/fi';
 import light from '/src/assets/images/light.png';
 import dark from '/src/assets/images/dark.png';
 
@@ -130,7 +130,7 @@ const Navbar = () => {
                             <motion.img
                                 key={isDark ? 'dark-logo' : 'light-logo'}
                                 src={isDark ? dark : light}
-                                alt="Nema Logo"
+                                alt="Logo"
                                 initial={{ opacity: 0, scale: 0.8 }}
                                 animate={{ opacity: 1, scale: 1 }}
                                 exit={{ opacity: 0, scale: 0.8 }}
@@ -271,20 +271,6 @@ const Navbar = () => {
                             </AnimatePresence>
                         </motion.button>
 
-                        {/* Login Button */}
-                        <motion.div variants={linkVariants} className="hidden md:block">
-                            <Link
-                                to="/login"
-                                className="inline-flex items-center space-x-2 px-4 py-2 bg-light-blush dark:bg-dark-blush text-white hover:bg-light-blush/90 dark:hover:bg-dark-blush/90 rounded-full text-sm font-medium transition-all duration-300 relative overflow-hidden group"
-                            >
-                                <motion.div
-                                    className="absolute inset-0 bg-gradient-to-r from-light-sage to-light-blush dark:from-dark-sage dark:to-dark-blush opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-                                />
-                                <FiUser className="w-4 h-4 relative z-10" />
-                                <span className="relative z-10">Login</span>
-                            </Link>
-                        </motion.div>
-
                         <motion.button
                             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
                             aria-label="Toggle mobile menu"
@@ -330,18 +316,6 @@ const Navbar = () => {
                                         </Link>
                                     </motion.div>
                                 ))}
-                                
-                                {/* Mobile Login Button */}
-                                <motion.div variants={mobileItemVariants}>
-                                    <Link
-                                        to="/login"
-                                        onClick={() => setIsMobileMenuOpen(false)}
-                                        className="flex items-center space-x-2 px-3 py-2 mx-3 my-2 bg-light-blush dark:bg-dark-blush text-white hover:bg-light-blush/90 dark:hover:bg-dark-blush/90 rounded-full text-base font-medium transition-all duration-300"
-                                    >
-                                        <FiUser className="w-4 h-4" />
-                                        <span>Login</span>
-                                    </Link>
-                                </motion.div>
                                 
                                 <motion.div variants={mobileItemVariants} className="border-t border-light-sage/20 dark:border-dark-sage/20 pt-2 mt-2">
                                     <div className="px-3 py-1 text-xs font-semibold text-light-sage dark:text-dark-sage uppercase tracking-wider">

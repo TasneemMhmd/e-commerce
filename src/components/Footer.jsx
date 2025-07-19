@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { motion } from 'framer-motion';
+import { AnimatePresence, motion } from 'framer-motion';
 import { FiInstagram, FiFacebook, FiTwitter, FiMail, FiPhone, FiMapPin, FiHeart } from 'react-icons/fi';
 import light from '/src/assets/images/light.png';
 import dark from '/src/assets/images/dark.png';
@@ -85,13 +85,18 @@ const Footer = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                     {/* Brand Section */}
                     <motion.div variants={itemVariants} className="lg:col-span-1">
-                        <motion.div className="mb-4">
-                            <img
+                        <AnimatePresence mode="wait" initial={false}>
+                            <motion.img
+                                key={isDark ? 'dark-logo' : 'light-logo'}
                                 src={isDark ? dark : light}
-                                alt="Nema Logo"
+                                alt="Logo"
+                                initial={{ opacity: 0, scale: 0.8 }}
+                                animate={{ opacity: 1, scale: 1 }}
+                                exit={{ opacity: 0, scale: 0.8 }}
+                                transition={{ duration: 0.3 }}
                                 className="h-12 w-auto object-contain"
                             />
-                        </motion.div>
+                        </AnimatePresence>
                         <p className="text-light-charcoal dark:text-dark-charcoal text-sm mb-4 leading-relaxed">
                             Discover your beauty journey with premium skincare and makeup products that celebrate your unique glow.
                         </p>
@@ -118,7 +123,7 @@ const Footer = () => {
 
                     {/* Quick Links */}
                     <motion.div variants={itemVariants} className="lg:col-span-1">
-                        <h3 className="text-light-sage dark:text-dark-sage text-lg font-semibold mb-4">
+                        <h3 className="text-dark-sage dark:text-light-sage text-lg font-semibold mb-4">
                             Quick Links
                         </h3>
                         <ul className="space-y-2">
@@ -141,7 +146,7 @@ const Footer = () => {
 
                     {/* Categories */}
                     <motion.div variants={itemVariants} className="lg:col-span-1">
-                        <h3 className="text-light-sage dark:text-dark-sage text-lg font-semibold mb-4">
+                        <h3 className="text-dark-sage dark:text-light-sage text-lg font-semibold mb-4">
                             Categories
                         </h3>
                         <ul className="space-y-2">
@@ -164,7 +169,7 @@ const Footer = () => {
 
                     {/* Contact Info */}
                     <motion.div variants={itemVariants} className="lg:col-span-1">
-                        <h3 className="text-light-sage dark:text-dark-sage text-lg font-semibold mb-4">
+                        <h3 className="text-dark-sage dark:text-light-sage text-lg font-semibold mb-4">
                             Contact Us
                         </h3>
                         <div className="space-y-3">
@@ -173,7 +178,7 @@ const Footer = () => {
                                 className="flex items-center space-x-3 text-light-charcoal dark:text-dark-charcoal"
                             >
                                 <div className="p-1.5 bg-light-sage/20 dark:bg-dark-sage/20 rounded-md">
-                                    <FiMail className="w-4 h-4 text-light-sage dark:text-dark-sage" />
+                                    <FiMail className="w-4 h-4 text-dark-sage dark:text-light-sage" />
                                 </div>
                                 <span className="text-sm">hello@nema.com</span>
                             </motion.div>
@@ -183,7 +188,7 @@ const Footer = () => {
                                 className="flex items-center space-x-3 text-light-charcoal dark:text-dark-charcoal"
                             >
                                 <div className="p-1.5 bg-light-sage/20 dark:bg-dark-sage/20 rounded-md">
-                                    <FiPhone className="w-4 h-4 text-light-sage dark:text-dark-sage" />
+                                    <FiPhone className="w-4 h-4 text-dark-sage dark:text-light-sage" />
                                 </div>
                                 <span className="text-sm">+1 (555) 123-4567</span>
                             </motion.div>
@@ -193,7 +198,7 @@ const Footer = () => {
                                 className="flex items-start space-x-3 text-light-charcoal dark:text-dark-charcoal"
                             >
                                 <div className="p-1.5 bg-light-sage/20 dark:bg-dark-sage/20 rounded-md mt-0.5">
-                                    <FiMapPin className="w-4 h-4 text-light-sage dark:text-dark-sage" />
+                                    <FiMapPin className="w-4 h-4 text-dark-sage dark:text-light-sage" />
                                 </div>
                                 <span className="text-sm leading-relaxed">
                                     123 Beauty Street<br />
@@ -227,19 +232,19 @@ const Footer = () => {
                         <div className="flex items-center space-x-6 text-sm">
                             <Link
                                 to="/privacy"
-                                className="text-light-charcoal dark:text-dark-charcoal hover:text-light-sage dark:hover:text-dark-sage transition-colors duration-200"
+                                className="text-light-charcoal dark:text-dark-charcoal hover:text-light-sage dark:hover:text-light-sage transition-colors duration-200"
                             >
                                 Privacy
                             </Link>
                             <Link
                                 to="/terms"
-                                className="text-light-charcoal dark:text-dark-charcoal hover:text-light-sage dark:hover:text-dark-sage transition-colors duration-200"
+                                className="text-light-charcoal dark:text-dark-charcoal hover:text-light-sage dark:hover:text-light-sage transition-colors duration-200"
                             >
                                 Terms
                             </Link>
                             <Link
                                 to="/cookies"
-                                className="text-light-charcoal dark:text-dark-charcoal hover:text-light-sage dark:hover:text-dark-sage transition-colors duration-200"
+                                className="text-light-charcoal dark:text-dark-charcoal hover:text-light-sage dark:hover:text-light-sage transition-colors duration-200"
                             >
                                 Cookies
                             </Link>
