@@ -41,19 +41,14 @@ const Contact = () => {
 
     const contactInfo = [
         {
-            icon: FaMapMarkerAlt,
-            title: "Visit Us",
-            details: ["123 Business Street", "City, State 12345"],
-        },
-        {
             icon: FaPhone,
             title: "Call Us",
-            details: ["+1 (555) 123-4567", "Mon-Fri 9AM-6PM"],
+            details: ["+201066587314", "Sun-Thu 9AM-6PM"],
         },
         {
             icon: FaEnvelope,
             title: "Email Us",
-            details: ["hello@store.com", "support@store.com"],
+            details: ["tassnemm70@gmail.com"],
         },
     ];
 
@@ -199,9 +194,8 @@ const Contact = () => {
                                             name="name"
                                             value={formData.name}
                                             onChange={handleChange}
-                                            required
                                             className="w-full px-4 py-3 bg-white/50 dark:bg-black/20 border border-light-charcoal/20 dark:border-dark-charcoal/20 rounded-xl focus:ring-2 focus:ring-light-blush dark:focus:ring-dark-blush focus:border-transparent outline-none transition-all"
-                                            placeholder="John Doe"
+                                            placeholder="your name"
                                         />
                                     </motion.div>
 
@@ -217,9 +211,8 @@ const Contact = () => {
                                             name="email"
                                             value={formData.email}
                                             onChange={handleChange}
-                                            required
                                             className="w-full px-4 py-3 bg-white/50 dark:bg-black/20 border border-light-charcoal/20 dark:border-dark-charcoal/20 rounded-xl focus:ring-2 focus:ring-light-blush dark:focus:ring-dark-blush focus:border-transparent outline-none transition-all"
-                                            placeholder="john@example.com"
+                                            placeholder="test@example.com"
                                         />
                                     </motion.div>
                                 </div>
@@ -236,7 +229,6 @@ const Contact = () => {
                                         name="subject"
                                         value={formData.subject}
                                         onChange={handleChange}
-                                        required
                                         className="w-full px-4 py-3 bg-white/50 dark:bg-black/20 border border-light-charcoal/20 dark:border-dark-charcoal/20 rounded-xl focus:ring-2 focus:ring-light-blush dark:focus:ring-dark-blush focus:border-transparent outline-none transition-all"
                                         placeholder="How can we help you?"
                                     />
@@ -253,7 +245,6 @@ const Contact = () => {
                                         name="message"
                                         value={formData.message}
                                         onChange={handleChange}
-                                        required
                                         rows={5}
                                         className="w-full px-4 py-3 bg-white/50 dark:bg-black/20 border border-light-charcoal/20 dark:border-dark-charcoal/20 rounded-xl focus:ring-2 focus:ring-light-blush dark:focus:ring-dark-blush focus:border-transparent outline-none transition-all resize-none"
                                         placeholder="Tell us more about your inquiry..."

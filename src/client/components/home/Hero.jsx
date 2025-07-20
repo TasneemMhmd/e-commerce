@@ -152,7 +152,7 @@ const Hero = () => {
                             {[
                                 { number: "10K+", label: "Happy Customers" },
                                 { number: "500+", label: "Premium Products" },
-                                { number: "5★", label: "Customer Rating" }
+                                { number: "5⭐", label: "Customer Rating" }
                             ].map((stat, index) => (
                                 <motion.div
                                     key={index}

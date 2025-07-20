@@ -86,7 +86,7 @@ const Footer = () => {
                     {/* Brand Section */}
                     <motion.div variants={itemVariants} className="lg:col-span-1">
                         <AnimatePresence mode="wait" initial={false}>
-                            <motion.img
+                            {/* <motion.img
                                 key={isDark ? 'dark-logo' : 'light-logo'}
                                 src={isDark ? dark : light}
                                 alt="Logo"
@@ -95,7 +95,15 @@ const Footer = () => {
                                 exit={{ opacity: 0, scale: 0.8 }}
                                 transition={{ duration: 0.3 }}
                                 className="h-12 w-auto object-contain"
-                            />
+                            /> */}
+                                                            <img
+                                                                src= {light}
+                                                                className="block dark:hidden h-12 w-auto"
+                                                            />
+                                                            <img
+                                                                src={dark}
+                                                                className="hidden dark:block h-12 w-auto"
+                                                            />
                         </AnimatePresence>
                         <p className="text-light-charcoal dark:text-dark-charcoal text-sm mb-4 leading-relaxed">
                             Discover your beauty journey with premium skincare and makeup products that celebrate your unique glow.
