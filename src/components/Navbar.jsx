@@ -50,6 +50,7 @@ const Navbar = () => {
 
     const navLinks = [
         { name: "Home", href: "/" },
+        { name: "Shop", href: "/shop" },
         { name: "Offers", href: "/offer" },
         { name: "Contact", href: "/contact" },
     ];
@@ -198,7 +199,7 @@ const Navbar = () => {
                                             />
                                         </button>
                                     </motion.div>
-                                    {link.name === "Offers" && (
+                                    {link.name === "Shop" && (
                                         <motion.div
                                             variants={linkVariants}
                                             className="relative"

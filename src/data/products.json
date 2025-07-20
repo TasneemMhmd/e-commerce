@@ -1,0 +1,502 @@
+[
+  {
+    "id": 1,
+    "category": "skincare",
+    "title": "Hydrating Face Cream",
+    "description": "Premium skincare product for daily use.",
+    "image": "https://images.pexels.com/photos/4046316/pexels-photo-4046316.jpeg",
+    "price": 104,
+    "rating": 3.8,
+    "inStock": true
+  },
+  {
+    "id": 2,
+    "category": "haircare",
+    "title": "Leave-in Conditioner",
+    "description": "Nourishes and strengthens your hair.",
+    "image": "https://images.pexels.com/photos/3872899/pexels-photo-3872899.jpeg",
+    "price": 233,
+    "rating": 3.9,
+    "inStock": true
+  },
+  {
+    "id": 3,
+    "category": "bodycare",
+    "title": "Exfoliating Scrub",
+    "description": "Softens and revitalizes your skin.",
+    "image": "https://images.pexels.com/photos/7795646/pexels-photo-7795646.jpeg",
+    "price": 227,
+    "rating": 4.8,
+    "inStock": true
+  },
+  {
+    "id": 4,
+    "category": "skincare",
+    "title": "Vitamin C Serum",
+    "description": "Premium skincare product for daily use.",
+    "image": "https://images.pexels.com/photos/7797114/pexels-photo-7797114.jpeg",
+    "price": 144,
+    "rating": 3.9,
+    "inStock": true
+  },
+  {
+    "id": 5,
+    "category": "bodycare",
+    "title": "Moisturizing Lotion",
+    "description": "Softens and revitalizes your skin.",
+    "image": "https://images.pexels.com/photos/1029896/pexels-photo-1029896.jpeg",
+    "price": 159,
+    "rating": 3.8,
+    "inStock": true
+  },
+  {
+    "id": 6,
+    "category": "beauty tools",
+    "title": "Makeup Brush Set",
+    "description": "Essential tools for your beauty routine.",
+    "image": "https://images.pexels.com/photos/7675855/pexels-photo-7675855.jpeg",
+    "price": 497,
+    "rating": 4.6,
+    "inStock": true
+  },
+  {
+    "id": 7,
+    "category": "beauty tools",
+    "title": "Compact Mirror",
+    "description": "Essential tools for your beauty routine.",
+    "image": "https://images.unsplash.com/photo-1737016765829-5f8e43b2cbe3?q=80&w=436&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "price": 246,
+    "rating": 4.7,
+    "inStock": true
+  },
+  {
+    "id": 8,
+    "category": "makeup",
+    "title": "Red Lipstick",
+    "description": "High quality makeup for a flawless look.",
+    "image": "https://images.unsplash.com/photo-1593939202577-6bf5b21cb507?q=80&w=435&auto=format&fit=crop",
+    "price": 145,
+    "rating": 4.5,
+    "inStock": true
+  },
+  {
+    "id": 9,
+    "category": "haircare",
+    "title": "Keratin Hair Mask",
+    "description": "Nourishes and strengthens your hair.",
+    "image": "https://images.pexels.com/photos/32435039/pexels-photo-32435039.jpeg",
+    "price": 349,
+    "rating": 5.0,
+    "inStock": true
+  },
+  {
+    "id": 10,
+    "category": "skincare",
+    "title": "Vitamin C Serum",
+    "description": "Premium skincare product for daily use.",
+    "image": "https://images.pexels.com/photos/7797114/pexels-photo-7797114.jpeg",
+    "price": 350,
+    "rating": 4.6,
+    "inStock": true
+  },
+  {
+    "id": 11,
+    "category": "beauty tools",
+    "title": "Facial Roller",
+    "description": "Essential tools for your beauty routine.",
+    "image": "https://images.unsplash.com/photo-1626897844948-b161ca15d44e?q=80&w=435&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "price": 270,
+    "rating": 4.8,
+    "inStock": true
+  },
+  {
+    "id": 12,
+    "category": "beauty tools",
+    "title": "Compact Mirror",
+    "description": "Essential tools for your beauty routine.",
+    "image": "https://images.unsplash.com/photo-1737016765829-5f8e43b2cbe3?q=80&w=436&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "price": 197,
+    "rating": 3.9,
+    "inStock": true
+  },
+  {
+    "id": 13,
+    "category": "perfume",
+    "title": "Floral Eau de Parfum",
+    "description": "A fragrance that lasts all day.",
+    "image": "https://images.pexels.com/photos/1190829/pexels-photo-1190829.jpeg",
+    "price": 184,
+    "rating": 3.8,
+    "inStock": true
+  },
+  {
+    "id": 14,
+    "category": "perfume",
+    "title": "Citrus Body Mist",
+    "description": "A fragrance that lasts all day.",
+    "image": "https://images.pexels.com/photos/11953802/pexels-photo-11953802.png",
+    "price": 298,
+    "rating": 4.2,
+    "inStock": true
+  },
+  {
+    "id": 15,
+    "category": "perfume",
+    "title": "Woody Scent Spray",
+    "description": "A fragrance that lasts all day.",
+    "image": "https://images.pexels.com/photos/3059609/pexels-photo-3059609.jpeg",
+    "price": 217,
+    "rating": 4.4,
+    "inStock": true
+  },
+  {
+    "id": 16,
+    "category": "haircare",
+    "title": "Leave-in Conditioner",
+    "description": "Nourishes and strengthens your hair.",
+    "image": "https://images.pexels.com/photos/3872899/pexels-photo-3872899.jpeg",
+    "price": 112,
+    "rating": 4.7,
+    "inStock": true
+  },
+  {
+    "id": 17,
+    "category": "perfume",
+    "title": "Citrus Body Mist",
+    "description": "A fragrance that lasts all day.",
+    "image": "https://images.pexels.com/photos/11953802/pexels-photo-11953802.png",
+    "price": 482,
+    "rating": 4.9,
+    "inStock": true
+  },
+  {
+    "id": 18,
+    "category": "beauty tools",
+    "title": "Compact Mirror",
+    "description": "Essential tools for your beauty routine.",
+    "image": "https://images.unsplash.com/photo-1737016765829-5f8e43b2cbe3?q=80&w=436&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "price": 183,
+    "rating": 4.4,
+    "inStock": true
+  },
+  {
+    "id": 19,
+    "category": "makeup",
+    "title": "Waterproof Mascara",
+    "description": "High quality makeup for a flawless look.",
+    "image": "https://images.unsplash.com/photo-1631214540553-ff044a3ff1d4?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "price": 312,
+    "rating": 4.3,
+    "inStock": true
+  },
+  {
+    "id": 20,
+    "category": "perfume",
+    "title": "Floral Eau de Parfum",
+    "description": "A fragrance that lasts all day.",
+    "image": "https://images.pexels.com/photos/1190829/pexels-photo-1190829.jpeg",
+    "price": 198,
+    "rating": 3.6,
+    "inStock": true
+  },
+  {
+    "id": 21,
+    "category": "perfume",
+    "title": "Woody Scent Spray",
+    "description": "A fragrance that lasts all day.",
+    "image": "https://images.pexels.com/photos/3059609/pexels-photo-3059609.jpeg",
+    "price": 164,
+    "rating": 3.9,
+    "inStock": true
+  },
+  {
+    "id": 22,
+    "category": "skincare",
+    "title": "Vitamin C Serum",
+    "description": "Premium skincare product for daily use.",
+    "image": "https://images.pexels.com/photos/7797114/pexels-photo-7797114.jpeg",
+    "price": 258,
+    "rating": 4.3,
+    "inStock": true
+  },
+  {
+    "id": 23,
+    "category": "beauty tools",
+    "title": "Compact Mirror",
+    "description": "Essential tools for your beauty routine.",
+    "image": "https://images.unsplash.com/photo-1737016765829-5f8e43b2cbe3?q=80&w=436&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "price": 249,
+    "rating": 4.4,
+    "inStock": true
+  },
+  {
+    "id": 24,
+    "category": "perfume",
+    "title": "Floral Eau de Parfum",
+    "description": "A fragrance that lasts all day.",
+    "image": "https://images.pexels.com/photos/1190829/pexels-photo-1190829.jpeg",
+    "price": 271,
+    "rating": 4.8,
+    "inStock": true
+  },
+  {
+    "id": 25,
+    "category": "haircare",
+    "title": "Keratin Hair Mask",
+    "description": "Nourishes and strengthens your hair.",
+    "image": "https://images.pexels.com/photos/32435039/pexels-photo-32435039.jpeg",
+    "price": 280,
+    "rating": 4.6,
+    "inStock": true
+  },
+  {
+    "id": 26,
+    "category": "makeup",
+    "title": "Longwear Foundation",
+    "description": "High quality makeup for a flawless look.",
+    "image": "https://images.unsplash.com/photo-1599733589046-10c005739ef9?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "price": 282,
+    "rating": 4.7,
+    "inStock": true
+  },
+  {
+    "id": 27,
+    "category": "skincare",
+    "title": "Aloe Vera Gel",
+    "description": "Premium skincare product for daily use.",
+    "image": "https://images.pexels.com/photos/12304752/pexels-photo-12304752.jpeg",
+    "price": 248,
+    "rating": 3.5,
+    "inStock": true
+  },
+  {
+    "id": 28,
+    "category": "haircare",
+    "title": "Keratin Hair Mask",
+    "description": "Nourishes and strengthens your hair.",
+    "image": "https://images.pexels.com/photos/32435039/pexels-photo-32435039.jpeg",
+    "price": 184,
+    "rating": 4.0,
+    "inStock": true
+  },
+  {
+    "id": 29,
+    "category": "perfume",
+    "title": "Floral Eau de Parfum",
+    "description": "A fragrance that lasts all day.",
+    "image": "https://images.pexels.com/photos/1190829/pexels-photo-1190829.jpeg",
+    "price": 171,
+    "rating": 4.7,
+    "inStock": true
+  },
+  {
+    "id": 30,
+    "category": "perfume",
+    "title": "Woody Scent Spray",
+    "description": "A fragrance that lasts all day.",
+    "image": "https://images.pexels.com/photos/3059609/pexels-photo-3059609.jpeg",
+    "price": 377,
+    "rating": 3.6,
+    "inStock": true
+  },
+  {
+    "id": 31,
+    "category": "haircare",
+    "title": "Argan Oil Shampoo",
+    "description": "Nourishes and strengthens your hair.",
+    "image": "https://images.pexels.com/photos/8054407/pexels-photo-8054407.jpeg",
+    "price": 407,
+    "rating": 4.8,
+    "inStock": true
+  },
+  {
+    "id": 32,
+    "category": "perfume",
+    "title": "Woody Scent Spray",
+    "description": "A fragrance that lasts all day.",
+    "image": "https://images.pexels.com/photos/3059609/pexels-photo-3059609.jpeg",
+    "price": 476,
+    "rating": 4.5,
+    "inStock": true
+  },
+  {
+    "id": 33,
+    "category": "makeup",
+    "title": "Waterproof Mascara",
+    "description": "High quality makeup for a flawless look.",
+    "image": "https://images.unsplash.com/photo-1631214540553-ff044a3ff1d4?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "price": 255,
+    "rating": 3.7,
+    "inStock": true
+  },
+  {
+    "id": 34,
+    "category": "makeup",
+    "title": "Red Lipstick",
+    "description": "High quality makeup for a flawless look.",
+    "image": "https://images.unsplash.com/photo-1593939202577-6bf5b21cb507?q=80&w=435&auto=format&fit=crop",
+    "price": 175,
+    "rating": 4.5,
+    "inStock": true
+  },
+  {
+    "id": 35,
+    "category": "beauty tools",
+    "title": "Makeup Brush Set",
+    "description": "Essential tools for your beauty routine.",
+    "image": "https://images.pexels.com/photos/7675855/pexels-photo-7675855.jpeg",
+    "price": 354,
+    "rating": 4.3,
+    "inStock": true
+  },
+  {
+    "id": 36,
+    "category": "haircare",
+    "title": "Argan Oil Shampoo",
+    "description": "Nourishes and strengthens your hair.",
+    "image": "https://images.pexels.com/photos/8054407/pexels-photo-8054407.jpeg",
+    "price": 473,
+    "rating": 4.1,
+    "inStock": true
+  },
+  {
+    "id": 37,
+    "category": "haircare",
+    "title": "Argan Oil Shampoo",
+    "description": "Nourishes and strengthens your hair.",
+    "image": "https://images.pexels.com/photos/8054407/pexels-photo-8054407.jpeg",
+    "price": 253,
+    "rating": 3.9,
+    "inStock": true
+  },
+  {
+    "id": 38,
+    "category": "makeup",
+    "title": "Waterproof Mascara",
+    "description": "High quality makeup for a flawless look.",
+    "image": "https://images.unsplash.com/photo-1631214540553-ff044a3ff1d4?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "price": 142,
+    "rating": 4.3,
+    "inStock": true
+  },
+  {
+    "id": 39,
+    "category": "makeup",
+    "title": "Longwear Foundation",
+    "description": "High quality makeup for a flawless look.",
+    "image": "https://images.unsplash.com/photo-1599733589046-10c005739ef9?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "price": 281,
+    "rating": 4.4,
+    "inStock": true
+  },
+  {
+    "id": 40,
+    "category": "haircare",
+    "title": "Leave-in Conditioner",
+    "description": "Nourishes and strengthens your hair.",
+    "image": "https://images.pexels.com/photos/3872899/pexels-photo-3872899.jpeg",
+    "price": 206,
+    "rating": 4.0,
+    "inStock": true
+  },
+  {
+    "id": 41,
+    "category": "bodycare",
+    "title": "Exfoliating Scrub",
+    "description": "Softens and revitalizes your skin.",
+    "image": "https://images.pexels.com/photos/7795646/pexels-photo-7795646.jpeg",
+    "price": 267,
+    "rating": 3.8,
+    "inStock": true
+  },
+  {
+    "id": 42,
+    "category": "beauty tools",
+    "title": "Makeup Brush Set",
+    "description": "Essential tools for your beauty routine.",
+    "image": "https://images.pexels.com/photos/7675855/pexels-photo-7675855.jpeg",
+    "price": 403,
+    "rating": 3.6,
+    "inStock": true
+  },
+  {
+    "id": 43,
+    "category": "bodycare",
+    "title": "Moisturizing Lotion",
+    "description": "Softens and revitalizes your skin.",
+    "image": "https://images.pexels.com/photos/1029896/pexels-photo-1029896.jpeg",
+    "price": 240,
+    "rating": 4.3,
+    "inStock": true
+  },
+  {
+    "id": 44,
+    "category": "skincare",
+    "title": "Hydrating Face Cream",
+    "description": "Premium skincare product for daily use.",
+    "image": "https://images.pexels.com/photos/4046316/pexels-photo-4046316.jpeg",
+    "price": 364,
+    "rating": 4.5,
+    "inStock": true
+  },
+  {
+    "id": 45,
+    "category": "bodycare",
+    "title": "Moisturizing Lotion",
+    "description": "Softens and revitalizes your skin.",
+    "image": "https://images.pexels.com/photos/1029896/pexels-photo-1029896.jpeg",
+    "price": 324,
+    "rating": 4.5,
+    "inStock": true
+  },
+  {
+    "id": 46,
+    "category": "makeup",
+    "title": "Longwear Foundation",
+    "description": "High quality makeup for a flawless look.",
+    "image": "https://images.unsplash.com/photo-1599733589046-10c005739ef9?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "price": 402,
+    "rating": 3.7,
+    "inStock": true
+  },
+  {
+    "id": 47,
+    "category": "haircare",
+    "title": "Argan Oil Shampoo",
+    "description": "Nourishes and strengthens your hair.",
+    "image": "https://images.pexels.com/photos/8054407/pexels-photo-8054407.jpeg",
+    "price": 141,
+    "rating": 4.7,
+    "inStock": true
+  },
+  {
+    "id": 48,
+    "category": "bodycare",
+    "title": "Moisturizing Lotion",
+    "description": "Softens and revitalizes your skin.",
+    "image": "https://images.pexels.com/photos/1029896/pexels-photo-1029896.jpeg",
+    "price": 359,
+    "rating": 3.8,
+    "inStock": true
+  },
+  {
+    "id": 49,
+    "category": "perfume",
+    "title": "Woody Scent Spray",
+    "description": "A fragrance that lasts all day.",
+    "image": "https://images.pexels.com/photos/3059609/pexels-photo-3059609.jpeg",
+    "price": 320,
+    "rating": 4.4,
+    "inStock": true
+  },
+  {
+    "id": 50,
+    "category": "skincare",
+    "title": "Vitamin C Serum",
+    "description": "Premium skincare product for daily use.",
+    "image": "https://images.pexels.com/photos/7797114/pexels-photo-7797114.jpeg",
+    "price": 455,
+    "rating": 3.6,
+    "inStock": true
+  }
+]

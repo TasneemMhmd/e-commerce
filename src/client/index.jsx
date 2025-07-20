@@ -6,6 +6,9 @@ import Register from "./pages/Register";
 import GuestRoute from "./GuestRoute";
 import Contact from "./components/home/Contact";
 import Offers from "./components/home/Offers";
+import Products from "./pages/Products";
+import AddProducts from "./pages/AddProducts";
+import ProductDetails from "./pages/ProductDetails";
 
 const ClientRoutes = () => {
   return (
@@ -14,6 +17,10 @@ const ClientRoutes = () => {
         <Route path="/" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/offer" element={<Offers />} />
+        <Route path="/shop" element={<Products />} />
+        <Route path="/add" element={<AddProducts />} />
+        <Route path="product/:id" element={<ProductDetails />} />
+
         {/* <Route path="/categories/skincare" element={<Skincare />} />
         <Route path="/categories/haircare" element={<Haircare />} /> */}
         {/* Add other category routes */}
